@@ -1,3 +1,47 @@
-h1{
-    color: aliceblue;
+/* Font */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-primary{
+    color: orange;
+}
+
+/* nav related CSS */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title{
+    color: black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+        list-style: none;
+        margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-primary{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    border: 0;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: 700;
 }
